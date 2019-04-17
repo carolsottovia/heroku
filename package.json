@@ -5,11 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vgnttv/first-database.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vgnttv/first-database/issues"
+  },
+  "homepage": "https://github.com/Vgnttv/first-database#readme",
+  "keywords": [],
+  "description": "",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pg": "^6.4.2",
+    "sequelize": "^5.6.0"
   }
 }
